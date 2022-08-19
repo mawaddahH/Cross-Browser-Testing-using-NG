@@ -1,13 +1,13 @@
 # Cross-Browser-Testing-using-NG
 Assignment 2 W10D2 - SDA - Software QA Bootcamp
 
-## Table of contents
+# Table of contents
 * [Question](#question)
 * [Answer](#answer)
 * [Output Screenshots](#output-screenshots)
 
 ---
-## Question
+# Question
 Create Automation Scripts using the TestNG framework for Cross Browser Testing.
 
 - STEP 1: Initialize a parameter with the name browser.
@@ -17,11 +17,11 @@ Create Automation Scripts using the TestNG framework for Cross Browser Testing.
 
 ---
 
-## Answer
+# Answer
 I used [Instagram](https://www.instagram.com/?hl=en) website
 Before running the code, there are some steps that need to take considered:
 
-### First:
+## First:
 Setup Latest [Web Driver](https://chromedriver.chromium.org/downloads) for Chrome Driver,
 Setup Latest [Web Driver](https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/) for Edge Driver,
 and etup Latest [Web Driver](https://github.com/mozilla/geckodriver/releases) for Firefox Driver.
@@ -31,11 +31,11 @@ Donwload the necessary jar files:
 - [TestNG](http://www.java2s.com/Code/Jar/t/Downloadtestng685jar.htm)  (Lastest).
 - [jcommander](http://www.java2s.com/Code/Jar/j/Downloadjcommanderjar.htm)  (Lastest). 
 
-### Second:
+## Second:
 Add them as a library in the classpath of the project
 - _click-reight on the file project >Build path > configure Bild path > Java Build Path > Libraries > classpath > add external JARs > Apply and close_.
 
-### Third:
+## Third:
 I opened the website, then take web elements, and then add them to the code.
 I used the annotation:
 
@@ -94,14 +94,13 @@ Then I passed the values in the TestNG XML file:
 ```
 ---
 
-## Output Screenshots:
+# Output Screenshots:
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/48597284/185636822-7767e081-8c52-4af5-994f-3afbd4b4753a.png" width=80% height=80%>
 
 
 https://user-images.githubusercontent.com/48597284/185637434-a0c130f1-8d12-4168-8afa-1bab88683abf.mp4
-
 
 
 </p>
