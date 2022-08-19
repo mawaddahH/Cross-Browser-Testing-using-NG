@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-08-19T17:06:22 AST" name="Suite" finished-at="2022-08-19T17:06:33 AST" duration-ms="10591">
+    <groups>
+    </groups>
+    <test started-at="2022-08-19T17:06:22 AST" name="Test" finished-at="2022-08-19T17:06:33 AST" duration-ms="10591">
+      <class name="ass2W10D2.ChromWebDriverAss2W10D2">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:ass2W10D2.ChromWebDriverAss2W10D2@2f177a4b]" started-at="2022-08-19T17:06:19 AST" name="setUp" finished-at="2022-08-19T17:06:22 AST" duration-ms="2874" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="nevigate()[pri:0, instance:ass2W10D2.ChromWebDriverAss2W10D2@2f177a4b]" started-at="2022-08-19T17:06:22 AST" name="nevigate" finished-at="2022-08-19T17:06:27 AST" duration-ms="5372" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- nevigate -->
+        <test-method signature="TestNG()[pri:0, instance:ass2W10D2.ChromWebDriverAss2W10D2@2f177a4b]" started-at="2022-08-19T17:06:27 AST" name="TestNG" finished-at="2022-08-19T17:06:33 AST" duration-ms="5166" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestNG -->
+        <test-method is-config="true" signature="terminateBrowser()[pri:0, instance:ass2W10D2.ChromWebDriverAss2W10D2@2f177a4b]" started-at="2022-08-19T17:06:33 AST" name="terminateBrowser" finished-at="2022-08-19T17:06:33 AST" duration-ms="870" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminateBrowser -->
+      </class> <!-- ass2W10D2.ChromWebDriverAss2W10D2 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
